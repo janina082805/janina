@@ -1,0 +1,30 @@
+.gallery-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    justify-items: center;
+}
+
+.gallery-grid img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
