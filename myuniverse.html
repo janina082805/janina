@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Universe</title>
+
+ <style>
+    *  {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        }
+
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #886253;
+        color: #fff;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+
+    header {
+        text-align: center;
+        margin-bottom: 40px;
+        }
+
+    header h1 {
+        font-size: 50px;
+        color: rgb(44, 1, 1);
+        margin-bottom: 10px;
+        }
+
+    header p {
+        font-size: 18px;
+        color: #ffffff;
+        }
+
+    .intro {
+        text-align: center;
+        font-size: 18px;
+        color: #fff;
+        margin-bottom: 40px;
+        max-width: 800px;
+        line-height: 1.6;
+        font-weight: 300;
+        }
+
+    .games-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        max-width: 1200px;
+        width: 100%;
+        }
+
+    .game-card {
+        background-color: #f1bfbf;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        transition: transform 0.3s ease;
+        }
+
+    .game-card:hover {
+        transform: translateY(-10px);
+        }
+
+    .game-card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-bottom: 3px solid #81747a;
+        }
+
+    .game-card .content {
+        padding: 20px;
+        text-align: center;
+        }
+
+    .game-card h3 {
+        font-size: 22px;
+        color: #462836;
+        margin-bottom: 12px;
+        }
+
+    .game-card p {
+        font-size: 14px;
+        color: #000000;
+        line-height: 1.4;  
+        }
+
+ </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>My Universe</h1>
+        <p>Take a look on my favorite recipes.</p>
+     </header>
+
+<div class="intro">
+    <p>These are the restaurant's specialties and my favourite recipes to do!</p>
+ </div>
+
+ <div class="games-grid">
+  <div class="game-card">
+   <img src="https://thecookingfoodie.com/wp-content/uploads/2025/02/IMG_0910-2.jpg" alt="RedVelvet">
+   <div class="content">
+    <h3>Red Velvet Cake</h3>
+    <p>Red velvet flavored cake with cheescake.</p>
+   </div>
+  </div>
+
+  <div class="game-card">
+   <img src="https://www.allrecipes.com/thmb/dNzzgeEyacuH-RIfMI4PjWFODBM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-9996-chewy-peanut-butter-chocolate-chip-cookies-ddmfs-4x3-614164ea044a4845b3cca7e725ecf7bd.jpg" alt="Cookies">
+   <div class="content">
+    <h3>Chocolate Chip Cookies</h3>
+    <p>Cookies with sweet bits.</p>
+   </div>
+  </div>
+
+ </div>
+</body>
+</html>

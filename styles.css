@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    }
+header {
+    background: #154882;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    }
+nav {
+    background: #4d9ef9;
+    padding: 0.5rem;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+section {
+    flex: 2;
+    padding: 20px;
+    background: white;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+aside {
+    flex: 1;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: 2px dashed orange;
+}
+
+a:active {
+    color: green;
+}
+#cart-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #e3b0f0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  #cart-box a {
+    text-decoration: none;
+    color: white;
+  }
+footer {
+    background: #154882;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px;
+}
+article {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}

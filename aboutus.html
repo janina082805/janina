@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #18a2e2;
+            color: #ffffff;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .left-section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-image {
+            width: 100%;
+            max-width: 250px;
+            aspect-ratio: 1 / 1; 
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .right-section {
+            flex: 1;
+            padding: 20px;
+            max-width: 600px;
+        }
+
+        h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 24px;
+            color: #042664;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .cta-button {
+            background-color: #042664;
+            color: rgb(245, 206, 255);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-section">
+            <img src="images\IMG_20250509_123308_736.jpg" alt="Profile Picture" class="profile-image" />
+        </div>
+
+        <div class="right-section">
+            <h2>About Us</h2>
+            <h3>Young Entrepreneur</h3>
+            <p>Hello! I am Janina Erfelo. I am a 19 year old business owner. I started this business on November 2023.
+                Sip and Bite was first available through online orders.</p>
+            <button class="cta-button">Order Now!</button>
+        </div>
+    </div>
+</body>
+
+</html>
